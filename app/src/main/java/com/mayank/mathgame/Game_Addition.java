@@ -40,12 +40,12 @@ public class Game_Addition extends AppCompatActivity {
         setContentView(R.layout.activity_game_addition);
 
         score=findViewById(R.id.textScore);
-        score=findViewById(R.id.textLife);
-        score=findViewById(R.id.textTime);
-        score=findViewById(R.id.editAnswer);
-        score=findViewById(R.id.textQuestion);
-        score=findViewById(R.id.buttoncheck);
-        score=findViewById(R.id.buttonNext);
+        life=findViewById(R.id.textLife);
+        time=findViewById(R.id.textTime);
+        answer=findViewById(R.id.editAnswer);
+        question=findViewById(R.id.textQuestion);
+        ok=findViewById(R.id.buttoncheck);
+        next=findViewById(R.id.buttonNext);
 
         gameContinue();
         ok.setOnClickListener(new View.OnClickListener() {

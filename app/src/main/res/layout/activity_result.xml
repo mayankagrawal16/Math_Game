@@ -21,7 +21,7 @@
         android:textSize="34sp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -37,7 +37,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttonPlayAgain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -50,7 +50,7 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/buttonExit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"

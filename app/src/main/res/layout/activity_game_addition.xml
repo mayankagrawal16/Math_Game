@@ -94,6 +94,7 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_marginTop="30dp"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Time is Out"
         android:textSize="36sp" />
 
