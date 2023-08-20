@@ -14,7 +14,7 @@ import android.widget.Toast;
 import java.util.Locale;
 import java.util.Random;
 
-public class Game_Addition extends AppCompatActivity {
+public class Game_Multiplication extends AppCompatActivity {
 
     TextView score,life,time;
     TextView question;
@@ -75,7 +75,7 @@ public class Game_Addition extends AppCompatActivity {
                 if(userLife<=0)
                 {
                     Toast.makeText(getApplicationContext(),"Game Over",Toast.LENGTH_SHORT).show();
-                    Intent intent=new Intent(Game_Addition.this, Result.class);
+                    Intent intent=new Intent(Game_Multiplication.this, Result.class);
                     startActivity(intent);
                     intent.putExtra("score",userScore);
                     finish();
@@ -91,8 +91,8 @@ public class Game_Addition extends AppCompatActivity {
     {
         num1=random.nextInt(100);
         num2=random.nextInt(100);
-        realAnswer=num1+num2;
-        question.setText(num1+" + "+ num2);
+        realAnswer=num1*num2;
+        question.setText(num1+" x "+ num2);
         StartTimer();
 
     }

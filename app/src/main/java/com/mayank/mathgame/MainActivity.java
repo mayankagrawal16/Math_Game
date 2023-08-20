@@ -29,6 +29,29 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-
+        sub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Game_Subtraction.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        mul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Game_Multiplication.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+        rem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Game_Remainder.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
